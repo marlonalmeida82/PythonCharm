@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>aritmetica.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #5f826b; font-style: italic;}
+.s3 { color: #cf8e6d;}
+.s4 { color: #bcbec4;}
+.s5 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+aritmetica.py</font>
+</center></td></tr></table>
+<pre><span class="s0">#operação aritiméticas</span>
+<span class="s2">&quot;&quot;&quot; 
+ 
+Basica: 
+ 
+adção --&gt; + 
+subtração--&gt;- 
+multiplicação--&gt;* 
+divisão--&gt; / 
+ 
+outras: 
+ 
+Divisão inteira:// 
+Resto da Divisão: % 
+Exponenciação: ** 
+&quot;&quot;&quot;</span>
+
+<span class="s0"># Crie uma função para somar dois números:5+5</span>
+
+<span class="s3">def </span><span class="s1">somar</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para soma de adição: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">+ </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">+ </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+
+<span class="s1">somar</span><span class="s4">()</span>
+
+
+<span class="s3">def </span><span class="s1">subtrair</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para subtração: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">- </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">- </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+<span class="s1">subtrair</span><span class="s4">()</span>
+
+<span class="s3">def </span><span class="s1">Multiplicação</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para multiplicação: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">* </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">* </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+<span class="s1">Multiplicação</span><span class="s4">()</span>
+
+<span class="s3">def </span><span class="s1">Divisão</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para divisão: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">/ </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">/ </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+<span class="s1">Divisão</span><span class="s4">()</span>
+
+<span class="s3">def </span><span class="s1">divisão_inteira</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para divisão inteira: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">// </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">// </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+<span class="s1">divisão_inteira</span><span class="s4">()</span>
+
+<span class="s3">def </span><span class="s1">exponenciacao</span><span class="s4">():</span>
+ <span class="s1">num1 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe um número para exponenciação: &quot;</span><span class="s4">))</span>
+ <span class="s1">num2 </span><span class="s4">= </span><span class="s1">int</span><span class="s4">(</span><span class="s1">input</span><span class="s4">(</span><span class="s5">&quot;Informe outro número: &quot;</span><span class="s4">))</span>
+ <span class="s1">num3 </span><span class="s4">= </span><span class="s1">num1 </span><span class="s4">** </span><span class="s1">num2</span>
+ <span class="s1">print</span><span class="s4">(</span><span class="s5">f&quot;</span><span class="s3">{</span><span class="s1">num1</span><span class="s3">} </span><span class="s5">** </span><span class="s3">{</span><span class="s1">num2</span><span class="s3">} </span><span class="s5">= </span><span class="s3">{</span><span class="s1">num3</span><span class="s3">}</span><span class="s5">&quot;</span><span class="s4">)</span>
+
+
+<span class="s0">#exercicio</span>
+
+<span class="s0">#Crie uma função multiplicar()</span>
+<span class="s0">#multiplicação--&gt; *</span>
+<span class="s0">#crie uma função diividir()</span>
+<span class="s0">#dividir--&gt; /</span>
+<span class="s0">#crie uma função dividir_inteira()</span>
+<span class="s0">#divisão Inteira://</span>
+<span class="s0">#crie uma função para calcular o resto da divisão</span>
+<span class="s0">#resto da Divisão: %</span>
+<span class="s0">#crie uma função para calculara a exponenciação</span>
+<span class="s0"># Exponenciação: **</span>
+
+</pre>
+</body>
+</html>
